@@ -1,0 +1,175 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+header h1 {
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+
+}
+
+nav ul {
+    display: flex;
+   
+
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+/* Main */
+main {
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.column-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.column-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.container-fluid {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.container-fluid:before,
+.container-fluid:after {
+    content: " ";
+    display: table;
+}
+
+.container-fluid:after {
+    clear: both;
+}
+
+.container-fluid > .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.column {
+    float: left;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+
+section img {
+    display: block;
+    max-width: 30%;
+    margin: 0 auto; /* Center the images horizontally */
+    margin-bottom: 20px;
+}
+section img:hover {
+    transform: scale(1.1); 
+    background-color: #111;
+}
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
